@@ -25,7 +25,6 @@ class TempConverterHome extends StatefulWidget {
   @override
   State<TempConverterHome> createState() => _TempConverterHomeState();
 }
-
 class _TempConverterHomeState extends State<TempConverterHome> {
   final TextEditingController _controller = TextEditingController();
   String _conversionType = 'F to C';
@@ -215,7 +214,6 @@ class _TempConverterHomeState extends State<TempConverterHome> {
       child: const Text('CONVERT'),
     );
   }
-
   Widget _buildHistorySection() {
     return Expanded(
       child: Column(
